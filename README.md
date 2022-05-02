@@ -7,7 +7,7 @@ I used React for all five projects. 🔥
 
 -----
 
-![image](https://i.ibb.co/zbxP4T8/react.png)
+![](https://i.ibb.co/zbxP4T8/react.png)
 
 ### ⏰ The last project
 
