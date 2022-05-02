@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
+
+main{
+  display: flex;
+  flex-direction: row;
+
+  width: 100vw;
+}
+
+section{
+  display: flex;
+  flex-direction: column;
+
+  width: 100vw;
+  max-height: calc(100vh - 2px);
+  height: 100000px;
+
+  margin-left: -1px;
+
+  border: 1px solid rgba(128, 128, 128, 1);
+}
+
+.title{
+  display: flex;
+
+  height: 5vh;
+  
+  align-items: center;
+  text-indent: 1vw;
+  
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  color: gray;
+  
+  border-bottom: 1px solid rgba(128, 128, 128, 1);
+}
+
+textarea{
+  height: calc(90vh - 2px);
+  width: 48vw;
+
+  padding: 1vh 1vw;
+
+  word-break: break-all;
+
+  border: none;
+  outline: none;
+  resize: none;
+
+  font-family: 'Consolas', sans-serif;
+  font-size: 16px;
+}
+
+#preview{
+  display: flex;
+  flex-direction: column;
+
+  max-width: calc(48vw - 2px);
+  max-height: calc(92vh - 2px);
+  height: 100%;
+
+  word-break: break-word;
+
+  overflow: scroll;
+  
+  padding: 1vh 1vw;
+  gap: 10px;
+}
+
+::-webkit-scrollbar{
+  width: 0;
+}
+
+/*  */
+
+li{
+  margin-left: 30px;
+}
+
+img{
+  display: flex;
+
+  justify-content: center;
+
+  width: calc(40vw);
+}
